@@ -28,7 +28,7 @@ def filter_to_minimal_docs(docs: List[Document]) -> List[Document]:
         )
     return minimal_docs
 
-
+## Hare Krishna
 
 #Split the Data into Text Chunks
 def text_split(extracted_data):
