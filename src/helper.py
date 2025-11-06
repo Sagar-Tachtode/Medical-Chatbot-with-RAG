@@ -4,18 +4,14 @@ from langchain.embeddings import HuggingFaceEmbeddings
 from typing import List
 from langchain.schema import Document
 
-
+######################################################################
 #Extract Data From the PDF File
 def load_pdf_file(data):
     loader= DirectoryLoader(data,
                             glob="*.pdf",
                             loader_cls=PyPDFLoader)
-
     documents=loader.load()
-
     return documents
-
-
 
 def filter_to_minimal_docs(docs: List[Document]) -> List[Document]:
     """
@@ -33,7 +29,7 @@ def filter_to_minimal_docs(docs: List[Document]) -> List[Document]:
         )
     return minimal_docs
 
-
+## Hare Krishna
 
 #Split the Data into Text Chunks
 def text_split(extracted_data):

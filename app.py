@@ -51,8 +51,14 @@ def chat():
     print("Response : ", response["answer"])
     return str(response["answer"])
 
+print("Radhe Radhe")
+
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port= 8080, debug= True)
 
 
+## add the changed; Hare Krishna!!!!
+## add the changed; Hare Krishna!!!!
+## add the changed; Hare Krishna!!!!
+## add the changed; Hare Krishna!!!!
 ## add the changed; Hare Krishna!!!!
